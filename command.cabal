@@ -1,0 +1,17 @@
+name:                command
+version:             0.1.0.0
+synopsis:            basic parsers for cli applications
+-- description:         
+license:             BSD3
+license-file:        LICENSE
+author:              Craig Roche
+maintainer:          cdxr01@gmail.com
+copyright:           Copyright (c) Craig Roche 2012
+category:            Control
+build-type:          Simple
+cabal-version:       >=1.8
+
+library
+  exposed-modules:     Control.Command
+  -- other-modules:       
+  build-depends:       base ==4.6.*, transformers ==0.3.*, parsec ==3.1.*, case-insensitive ==1.0.*
